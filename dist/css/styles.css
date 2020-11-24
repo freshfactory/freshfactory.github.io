@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Agency v6.0.2 (https://startbootstrap.com/template-overviews/agency)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -271,7 +260,6 @@ button,
 [type=submit] {
   -webkit-appearance: button;
 }
-
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -474,8 +462,10 @@ mark,
 }
 
 .img-fluid {
+  max-height: 100%;
   max-width: 100%;
-  height: auto;
+  border-radius: 25px;
+  padding-bottom: 10px;
 }
 
 .img-thumbnail {
@@ -501,6 +491,10 @@ mark,
   color: #6c757d;
 }
 
+.barberdd {
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 code {
   font-size: 87.5%;
   color: #e83e8c;
@@ -10435,9 +10429,9 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 15rem;
+  height: 15rem;
+  border: 0.3rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
   margin-top: 1.5rem;

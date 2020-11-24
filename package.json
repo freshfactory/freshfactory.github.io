@@ -1,7 +1,7 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "6.0.2",
+    "title": "Fresh Factory",
+    "name": "freshfactory",
+    "version": "1.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": "Fresh Factory - Barbershop in Lafayette, IN.",
     "keywords": [
         "css",
         "sass",
